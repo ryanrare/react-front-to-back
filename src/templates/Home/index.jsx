@@ -69,7 +69,7 @@ export class Home extends Component {
             <h1>Search Value: {searchValue} </h1>
           )}
 
-          <TextInput searchValue={searchValue} handleChange={this.handleChange} />
+          <TextInput searchValue={searchValue} actionFN={this.handleChange} />
         </div>
 
         {filteredPosts.length > 0 && (
