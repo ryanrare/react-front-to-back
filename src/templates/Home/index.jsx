@@ -68,7 +68,6 @@ export class Home extends Component {
           {!!searchValue  && (
             <h1>Search Value: {searchValue} </h1>
           )}
-
           <TextInput searchValue={searchValue} actionFN={this.handleChange} />
         </div>
 
@@ -77,7 +76,7 @@ export class Home extends Component {
         )}
 
         {filteredPosts.length === 0 && (
-          <p>Não existe post!</p>
+          <p>Não existe post com esse titulo!</p>
         )}
 
         <div className='button-container'>
