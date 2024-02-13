@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Landing page de posts
 
-um Projeto para praticar o basico do react, nele faremos uma pagina onde contem posts, com imagem, titulo e descricao.
+Um Projeto para praticar o basico do react, nele faremos uma pagina onde contem posts, com imagem, titulo e descricao.
+Aplicaremos tambem alguns testes.
 
 ## Available Scripts
 
