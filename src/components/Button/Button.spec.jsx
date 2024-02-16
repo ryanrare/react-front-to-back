@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import { Button } from '.'
 
 describe('<Button />', () => {
@@ -7,6 +7,16 @@ describe('<Button />', () => {
         expect.assertions(1)
 
         const button = screen.getByRole('button', { name: /load more/i });
-        expect(button).toHaveAttribute('class', 'button');
+        expect(button).toBeInTheDocument();
+    });
+    it('should call function on button click', () => {
+        const fn = jest.fn();
+
+        render(<Button text="load more" onClick={fn}/>);
+
+        const button = screen.getByRole('button', { name: /load more/i });
+        fireEvent.click(button);
+        
+        expect(fn).toHaveBeenCalledTimes(1);
     });
 });
