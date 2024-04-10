@@ -1,4 +1,4 @@
-# Landing page de posts
+# Landing-page de posts
 
 Um Projeto para praticar o basico do react, nele faremos uma pagina onde contem posts, com imagem, titulo e descricao.
 Aplicaremos tambem alguns testes.
