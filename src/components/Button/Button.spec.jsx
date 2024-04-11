@@ -35,4 +35,5 @@ describe('<Button />', () => {
     const button = screen.getByRole('button', { name: /load more/i });
     expect(button).toBeEnabled();
   });
+  
 });
