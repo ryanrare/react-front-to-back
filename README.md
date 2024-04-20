@@ -3,11 +3,17 @@
 Um Projeto para praticar o basico do react, nele faremos uma pagina onde contem posts, com imagem, titulo e descricao.
 Aplicaremos tambem alguns testes.
 
-## Available Scripts
+## Scripts
 
-In the project directory, you can run:
+Nesse projeto, vc pode rodar dois scripts:
+
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Esse aqui é para rodar a página e ter acesso a listagem dos posts.\
+fica como [http://localhost:3000](http://localhost:3000)
+
+### `npm test`
+
+Comando para rodar alguns dos testes que criei com Jest.
+
